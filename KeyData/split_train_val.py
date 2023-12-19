@@ -1,3 +1,5 @@
+# coding:utf-8
+
 import os
 import random
 import argparse
@@ -7,25 +9,26 @@ parser.add_argument('--xml_path', default='Annotations', type=str, help='input x
 parser.add_argument('--txt_path', default='ImageSets/Main', type=str, help='output txt label path')
 opt = parser.parse_args()
 
-trainval_percent = 1.0
-train_percent = 0.9
+trainval_percent = 1.0  # 訓練集和驗證集所占比例。這裡沒有划分測試集
+train_percent = 0.9     # 訓練集所占比例，可自行調整
 xmlfilepath = opt.xml_path
 txtsavepath = opt.txt_path
 total_xml = os.listdir(xmlfilepath)
+
 if not os.path.exists(txtsavepath):
     os.makedirs(txtsavepath)
 
 num = len(total_xml)
-list_index = list(range(num))  # Changed from range to list
+list_index = range(num)
 tv = int(num * trainval_percent)
 tr = int(tv * train_percent)
 trainval = random.sample(list_index, tv)
 train = random.sample(trainval, tr)
 
-file_trainval = open(os.path.join(txtsavepath, 'trainval.txt'), 'w')
-file_test = open(os.path.join(txtsavepath, 'test.txt'), 'w')
-file_train = open(os.path.join(txtsavepath, 'train.txt'), 'w')
-file_val = open(os.path.join(txtsavepath, 'val.txt'), 'w')
+file_trainval = open(txtsavepath + '/trainval.txt', 'w')
+file_test = open(txtsavepath + '/test.txt', 'w')
+file_train = open(txtsavepath + '/train.txt', 'w')
+file_val = open(txtsavepath + '/val.txt', 'w')
 
 for i in list_index:
     name = total_xml[i][:-4] + '\n'
