@@ -5,7 +5,6 @@ test:
 
 # number of classes
 nc: 10
-
 # class names
 names:
   - F308
