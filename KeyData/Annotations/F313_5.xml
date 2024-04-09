@@ -11,15 +11,51 @@
 		<depth>3</depth>
 	</size>
 	<object>
-		<name>F313</name>
+		<name>F</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1372</xmin>
-			<ymin>1963</ymin>
-			<xmax>1900</xmax>
-			<ymax>2244</ymax>
+			<xmin>1409</xmin>
+			<ymin>1977</ymin>
+			<xmax>1515</xmax>
+			<ymax>2183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>3</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1516</xmin>
+			<ymin>2001</ymin>
+			<xmax>1619</xmax>
+			<ymax>2175</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1621</xmin>
+			<ymin>1996</ymin>
+			<xmax>1733</xmax>
+			<ymax>2183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>3</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1733</xmin>
+			<ymin>2008</ymin>
+			<xmax>1850</xmax>
+			<ymax>2199</ymax>
 		</bndbox>
 	</object>
 </annotation>

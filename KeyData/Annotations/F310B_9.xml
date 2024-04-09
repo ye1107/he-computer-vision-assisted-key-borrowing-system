@@ -11,15 +11,63 @@
 		<depth>3</depth>
 	</size>
 	<object>
-		<name>F310B</name>
+		<name>F</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>953</xmin>
-			<ymin>1884</ymin>
-			<xmax>1559</xmax>
-			<ymax>2116</ymax>
+			<xmin>977</xmin>
+			<ymin>1928</ymin>
+			<xmax>1100</xmax>
+			<ymax>2095</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>3</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1101</xmin>
+			<ymin>1924</ymin>
+			<xmax>1201</xmax>
+			<ymax>2103</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1208</xmin>
+			<ymin>1930</ymin>
+			<xmax>1303</xmax>
+			<ymax>2105</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1306</xmin>
+			<ymin>1916</ymin>
+			<xmax>1415</xmax>
+			<ymax>2110</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>B</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1419</xmin>
+			<ymin>1922</ymin>
+			<xmax>1531</xmax>
+			<ymax>2114</ymax>
 		</bndbox>
 	</object>
 </annotation>

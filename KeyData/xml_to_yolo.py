@@ -3,7 +3,7 @@ import os
 from os import getcwd
 
 sets = ['train', 'val', 'test']
-classes = ["F308", "F309", "F310A", "F310B", "F311A", "F312A", "F312B", "F313", "F314", "F318"]  # 改成自己的类别
+classes = ["F", "3", "0", "8", "9", "1", "A", "B", "2", "4"]  # 改成自己的类别
 abs_path = os.getcwd()
 print(abs_path)
 
